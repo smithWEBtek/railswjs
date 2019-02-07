@@ -15,12 +15,13 @@ ex: serialize JSON data
   step 4: add active model relationships to serializers
 
 ### Step
-- :id, :req_id, :name, :instructions, :order_number
+- :id, :req_id, :name, :instructions, :seq_id
 - step belongs_to :req
 - step
+  - req_id
   - name
   - description
-  - req_id
+  - seq_id
 ex: step 1: add gem
 
 
